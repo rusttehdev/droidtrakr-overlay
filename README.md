@@ -1,21 +1,39 @@
 # DroidTrakr Overlay
 
-DroidTrakr is a native Windows companion for **Droid Tycoon in Fortnite**. It keeps Rebirth requirements, team progress, spawn timers, Droid search, Secret Vendor Limited Deals, and DroidTrakr chat available over the game window.
+DroidTrakr is a native Windows companion for **Droid Tycoon in Fortnite**. It keeps Rebirth and Flawless progress, team tracking, spawn timers, Droid search, Secret Vendor Limited Deals, and DroidTrakr chat available over the game window.
 
 > DroidTrakr is a fan-made companion and is not affiliated with, endorsed by, or sponsored by Epic Games or Lucasfilm.
 
 ## What it does
 
-- Tracks Rebirth requirements and credit goals through RB30
+- Tracks Rebirth requirements, credit goals, and Flawless progress
+- Switches between individual and group views
 - Synchronizes progress with your DroidTrakr account and group
 - Shows Beskar, Mythic, and Galactic spawn timers
-- Searches Droid requirements with `F10`
-- Provides Team View and General Chat
-- Lets users submit private Secret Vendor Limited Deal choices
-- Anchors to the Fortnite window and hides when the game is minimized
-- Provides tray controls and `F8`, `F9`, and `F10` shortcuts
+- Searches Droid requirements by Droid name or tier
+- Provides Limited Deal reporting and General Chat
+- Anchors separate Droid, toolbar, and timer windows to Fortnite
+- Provides configurable layouts, scale, position, visibility, and global hotkeys
 
 DroidTrakr **does not control Fortnite, inject into the game, read game memory, or automate gameplay**.
+
+## Default hotkeys
+
+All five bindings can be changed under **Settings → Hotkeys**.
+
+| Default | Action |
+|---|---|
+| `F7` | Switch Rebirth / Flawless |
+| `F8` | Switch Individual / Group |
+| `F9` | Minimize / restore the Droid area |
+| `F10` | Open / close search |
+| `F11` | Open / close settings |
+
+Function keys, letters, digits, numpad and navigation keys, Mouse4, Mouse5, and Middle Mouse are supported. Duplicate bindings are rejected.
+
+## Fortnite display mode
+
+DroidTrakr requires **Windowed Fullscreen**. It does not alter Fortnite binaries or gameplay files. If Exclusive Fullscreen is detected, it can offer to update `GameUserSettings.ini` after confirmation and creates a backup first.
 
 ## Build from source
 
@@ -57,7 +75,7 @@ Get-FileHash .\droidtrakr-overlay-package.zip -Algorithm SHA256
 
 ## Data and networking
 
-The client connects only to DroidTrakr’s HTTPS endpoints for account access, synchronization, timers, chat, Limited Deals, release manifests, and updates. Account session material stored locally is protected using Windows data-protection APIs where supported.
+The client connects to DroidTrakr’s HTTPS endpoints for account access, synchronization, timers, chat, Limited Deals, release manifests, and updates. When the user chooses to save a login, the account name and password are encrypted with Windows DPAPI for the current Windows user. Startup still requires the user to select **Connect Overlay**.
 
 See [PRIVACY.md](PRIVACY.md) and [SECURITY.md](SECURITY.md).
 
