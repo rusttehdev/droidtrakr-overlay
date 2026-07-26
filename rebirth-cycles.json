@@ -1,0 +1,3410 @@
+[
+  {
+    "id": "RBC1",
+    "label": "RBC1",
+    "subtitle": "OG / SRB5 loop",
+    "rows": [
+      {
+        "cycle": "RBC1",
+        "rb": "RB 1",
+        "rbNumber": 1,
+        "droids": [
+          "CB",
+          "PIT",
+          "DRK-1 PROBE"
+        ],
+        "credits": "10,000",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "CB",
+              "PIT",
+              "DRK-1 PROBE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 2",
+        "rbNumber": 2,
+        "droids": [
+          "BDX EXPLORER",
+          "2BB",
+          "BAL-CORE"
+        ],
+        "credits": "150,000",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "BDX EXPLORER",
+              "2BB",
+              "BAL-CORE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 3",
+        "rbNumber": 3,
+        "droids": [
+          "A-LT",
+          "B-U4D",
+          "R9"
+        ],
+        "credits": "975,000",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "A-LT",
+              "B-U4D"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "R9"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 4",
+        "rbNumber": 4,
+        "droids": [
+          "ARG",
+          "B1 SECURITY",
+          "GROUNDMECH"
+        ],
+        "credits": "2.95 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "GROUNDMECH"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "ARG",
+              "B1 SECURITY"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 5",
+        "rbNumber": 5,
+        "droids": [
+          "B-U4D",
+          "HOV-R",
+          "R9"
+        ],
+        "credits": "5.35M",
+        "sell": [
+          "R9"
+        ],
+        "safeSellNote": "R9",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "B-U4D",
+              "HOV-R"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R9"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 6",
+        "rbNumber": 6,
+        "droids": [
+          "GROUNDMECH",
+          "ARG",
+          "A-LT"
+        ],
+        "credits": "9.85M",
+        "sell": [
+          "ARG",
+          "A-LT"
+        ],
+        "safeSellNote": "ARG, A-LT",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "GROUNDMECH"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "ARG",
+              "A-LT"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 7",
+        "rbNumber": 7,
+        "droids": [
+          "BB",
+          "B1 SECURITY",
+          "B-U4D"
+        ],
+        "credits": "14.5M",
+        "sell": [
+          "B1 SECURITY",
+          "B-U4D"
+        ],
+        "safeSellNote": "B1 SECURITY, B-U4D",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "BB"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "B1 SECURITY",
+              "B-U4D"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 8",
+        "rbNumber": 8,
+        "droids": [
+          "UTIL-TEC",
+          "LO",
+          "HOV-R"
+        ],
+        "credits": "36M",
+        "sell": [
+          "UTIL-TEC",
+          "HOV-R"
+        ],
+        "safeSellNote": "UTIL-TEC, HOV-R",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "UTIL-TEC",
+              "LO"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "HOV-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 9",
+        "rbNumber": 9,
+        "droids": [
+          "GROUNDMECH",
+          "R6",
+          "TRAK-R"
+        ],
+        "credits": "89M",
+        "sell": [
+          "R6",
+          "TRAK-R"
+        ],
+        "safeSellNote": "R6, TRAK-R",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "R6",
+              "TRAK-R"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "GROUNDMECH"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 10",
+        "rbNumber": 10,
+        "droids": [
+          "LO",
+          "HAUL-R",
+          "STRIKE-ORB"
+        ],
+        "credits": "220M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "STRIKE-ORB"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "LO",
+              "HAUL-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 11",
+        "rbNumber": 11,
+        "droids": [
+          "AMP WALKER",
+          "B1 HEAVY",
+          "BB9"
+        ],
+        "credits": "550 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "BB9"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "AMP WALKER",
+              "B1 HEAVY"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 12",
+        "rbNumber": 12,
+        "droids": [
+          "PROTOROLL",
+          "MONOWLKR",
+          "MECHA-DROID"
+        ],
+        "credits": "1.36 Billion",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "MONO-WLKR",
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "PROTO-ROLLER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 13",
+        "rbNumber": 13,
+        "droids": [
+          "R7",
+          "CYCLO-GRAV",
+          "B2-RP"
+        ],
+        "credits": "3.4B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "R7",
+              "CYCLO-GRAV",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 14",
+        "rbNumber": 14,
+        "droids": [
+          "OPTI-STRK",
+          "MONO-WLKR",
+          "MECHA-DROID"
+        ],
+        "credits": "8.45B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "OPTI-STRK"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "MONO-WLKR",
+              "MECHA-DROID"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 15",
+        "rbNumber": 15,
+        "droids": [
+          "B2-RP",
+          "BB9",
+          "R7"
+        ],
+        "credits": "21B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "B2-RP",
+              "BB9",
+              "R7"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 16",
+        "rbNumber": 16,
+        "droids": [
+          "OPTI-STRK",
+          "MONO-WLKR",
+          "PROTO-ROLLER"
+        ],
+        "credits": "52B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "OPTI-STRK"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "MONO-WLKR",
+              "PROTO-ROLLER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 17",
+        "rbNumber": 17,
+        "droids": [
+          "B2-RP",
+          "CYCLO-GRAV",
+          "MECHA-DROID"
+        ],
+        "credits": "130B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "B2-RP",
+              "CYCLO-GRAV",
+              "MECHA-DROID"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 18",
+        "rbNumber": 18,
+        "droids": [
+          "BB9",
+          "R7",
+          "MONO-WLKR"
+        ],
+        "credits": "325B",
+        "sell": [
+          "BB9"
+        ],
+        "safeSellNote": "BB9",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "BB9",
+              "R7"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "MONO-WLKR"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 19",
+        "rbNumber": 19,
+        "droids": [
+          "B2-RP",
+          "CYCLO-GRAV",
+          "PROTO-ROLLER"
+        ],
+        "credits": "810 Billion",
+        "sell": [
+          "B2-RP",
+          "CYCLO-GRAV"
+        ],
+        "safeSellNote": "B2-RP, CYCLO-GRAV",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2-RP",
+              "CYCLO-GRAV",
+              "PROTO-ROLLER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 20",
+        "rbNumber": 20,
+        "droids": [
+          "R7",
+          "OPTI-STRK",
+          "MECHA-DROID"
+        ],
+        "credits": "2 Trillion",
+        "sell": [
+          "MECHA-DROID"
+        ],
+        "safeSellNote": "MECHA-DROID",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "R7",
+              "OPTI-STRK",
+              "MECHA-DROID"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 21",
+        "rbNumber": 21,
+        "droids": [
+          "BB",
+          "ORB-WALKER",
+          "GROUNDMECH"
+        ],
+        "credits": "3T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "BB",
+              "ORB-WALKER",
+              "GROUNDMECH"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 22",
+        "rbNumber": 22,
+        "droids": [
+          "AMP WALKER",
+          "B1 HEAVY",
+          "PROTO-ROLLER"
+        ],
+        "credits": "4.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "AMP WALKER",
+              "B1 HEAVY",
+              "PROTO-ROLLER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 23",
+        "rbNumber": 23,
+        "droids": [
+          "OPTI-STRK",
+          "MONO-WLKR",
+          "R7"
+        ],
+        "credits": "6T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "OPTI-STRK",
+              "MONO-WLKR",
+              "R7"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 24",
+        "rbNumber": 24,
+        "droids": [
+          "BB9",
+          "CYCLO-GRAV",
+          "MO-TRAK"
+        ],
+        "credits": "9T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "BB9",
+              "CYCLO-GRAV"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "MO-TRAK"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 25",
+        "rbNumber": 25,
+        "droids": [
+          "B2-RP",
+          "IG",
+          "DRFT-R"
+        ],
+        "credits": "13.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "IG"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "DRFT-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 26",
+        "rbNumber": 26,
+        "droids": [
+          "CYCLENS",
+          "LOADLIFTER",
+          "RIC-1200"
+        ],
+        "credits": "21T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "CYCLENS"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "LOADLIFTER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "RIC-1200"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 27",
+        "rbNumber": 27,
+        "droids": [
+          "KX",
+          "TRI-TEK",
+          "SNOW MOUSE"
+        ],
+        "credits": "32T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "KX"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "TRI-TEK"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "SNOW MOUSE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 28",
+        "rbNumber": 28,
+        "droids": [
+          "MO-TRAK",
+          "DRFT-R",
+          "PROTO-ROLLER"
+        ],
+        "credits": "45T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "MO-TRAK"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "DRFT-R"
+            ]
+          },
+          {
+            "tier": "Galactic",
+            "droids": [
+              "PROTO-ROLLER"
+            ]
+          }
+        ],
+        "novaCrystals": 211,
+        "multiplier": "422%",
+        "srbMultiplier": "2110%"
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 29",
+        "rbNumber": 29,
+        "droids": [
+          "MONO-WLKR",
+          "MECHA-DROID",
+          "IG"
+        ],
+        "credits": "68T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "MONO-WLKR",
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "IG"
+            ]
+          }
+        ],
+        "novaCrystals": 232,
+        "multiplier": "464%",
+        "srbMultiplier": "2320%"
+      },
+      {
+        "cycle": "RBC1",
+        "rb": "RB 30",
+        "rbNumber": 30,
+        "droids": [
+          "B2-RP",
+          "CYCLENS",
+          "LOADLIFTER"
+        ],
+        "credits": "100T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "B2-RP",
+              "LOADLIFTER"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "CYCLENS"
+            ]
+          }
+        ],
+        "novaCrystals": 252,
+        "multiplier": "508%",
+        "srbMultiplier": "2540%"
+      }
+    ]
+  },
+  {
+    "id": "RBC2",
+    "label": "RBC2",
+    "subtitle": "SRB1",
+    "rows": [
+      {
+        "cycle": "RBC2",
+        "rb": "RB 1",
+        "rbNumber": 1,
+        "droids": [
+          "MOUSE",
+          "GONK",
+          "ID10"
+        ],
+        "credits": "10,000",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "MOUSE",
+              "GONK",
+              "ID10"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 2",
+        "rbNumber": 2,
+        "droids": [
+          "ROLL-R",
+          "NAV-EX",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "150,000",
+        "sell": [
+          "SENATE HOVERCRAFT"
+        ],
+        "safeSellNote": "SENATE HOVERCRAFT",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "ROLL-R",
+              "NAV-EX",
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 3",
+        "rbNumber": 3,
+        "droids": [
+          "R4",
+          "VECT-ARM",
+          "BDX EXPLORER"
+        ],
+        "credits": "975,000",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "R4",
+              "VECT-ARM"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "BDX EXPLORER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 4",
+        "rbNumber": 4,
+        "droids": [
+          "2BB",
+          "BAL-CORE",
+          "ORB-WALKER"
+        ],
+        "credits": "2.95 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "ORB-WALKER"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "2BB",
+              "BAL-CORE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 5",
+        "rbNumber": 5,
+        "droids": [
+          "R4",
+          "VECT-ARM",
+          "NAV-EX"
+        ],
+        "credits": "5.35M",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "R4",
+              "VECT-ARM",
+              "NAV-EX"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 6",
+        "rbNumber": 6,
+        "droids": [
+          "GUNRUNNER",
+          "2BB",
+          "BAL-CORE"
+        ],
+        "credits": "9.85M",
+        "sell": [
+          "2BB"
+        ],
+        "safeSellNote": "2BB",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "GUNRUNNER"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "2BB",
+              "BAL-CORE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 7",
+        "rbNumber": 7,
+        "droids": [
+          "ROLL-R",
+          "BDX EXPLORER",
+          "R2"
+        ],
+        "credits": "14.5M",
+        "sell": [
+          "ROLL-R",
+          "BDX EXPLORER"
+        ],
+        "safeSellNote": "ROLL-R,  BDX EXPLORER",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "R2"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "ROLL-R",
+              "BDX EXPLORER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 8",
+        "rbNumber": 8,
+        "droids": [
+          "R4",
+          "B2 SUPER",
+          "GUNRUNNER"
+        ],
+        "credits": "36M",
+        "sell": [
+          "R4",
+          "GUNRUNNER"
+        ],
+        "safeSellNote": "R4,  GUNRUNNER",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "B2 SUPER",
+              "GUNRUNNER"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R4"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 9",
+        "rbNumber": 9,
+        "droids": [
+          "NAV-EX",
+          "STRIKE-ORB",
+          "AMP WALKER"
+        ],
+        "credits": "89M",
+        "sell": [
+          "NAV-EX"
+        ],
+        "safeSellNote": "NAV-EX",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "STRIKE-ORB",
+              "AMP WALKER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "NAV-EX"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 10",
+        "rbNumber": 10,
+        "droids": [
+          "VECT-ARM",
+          "R2",
+          "B2 SUPER"
+        ],
+        "credits": "220M",
+        "sell": [
+          "VECT-ARM"
+        ],
+        "safeSellNote": "VECT-ARM",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R2",
+              "B2 SUPER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "VECT-ARM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 11",
+        "rbNumber": 11,
+        "droids": [
+          "STRIKE-ORB",
+          "B2 HEAVY",
+          "BAL-CORE"
+        ],
+        "credits": "550 Million",
+        "sell": [
+          "BAL-CORE"
+        ],
+        "safeSellNote": "BAL-CORE",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "STRIKE-ORB",
+              "B2 HEAVY"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "BAL-CORE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 12",
+        "rbNumber": 12,
+        "droids": [
+          "ORB-WALKER",
+          "R2",
+          "BB9"
+        ],
+        "credits": "1.36 Billion",
+        "sell": [
+          "ORB-WALKER",
+          "R2"
+        ],
+        "safeSellNote": "ORB-WALKER, R2",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "BB9"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "ORB-WALKER",
+              "R2"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 13",
+        "rbNumber": 13,
+        "droids": [
+          "B2 SUPER",
+          "MECHA-DROID",
+          "PROTO-ROLLER"
+        ],
+        "credits": "3.4B",
+        "sell": [
+          "B2 SUPER"
+        ],
+        "safeSellNote": "B2 SUPER",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "MECHA-DROID",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2 SUPER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 14",
+        "rbNumber": 14,
+        "droids": [
+          "B2 HEAVY",
+          "B2-RP",
+          "R7"
+        ],
+        "credits": "8.45B",
+        "sell": [
+          "B2 HEAVY"
+        ],
+        "safeSellNote": "B2 HEAVY",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "R7"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2 HEAVY"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 15",
+        "rbNumber": 15,
+        "droids": [
+          "STRIKE-ORB",
+          "BB9",
+          "PROTO-ROLLER"
+        ],
+        "credits": "21B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "BB9",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "STRIKE-ORB"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 16",
+        "rbNumber": 16,
+        "droids": [
+          "B2-RP",
+          "AMP WALKER",
+          "MECHA-DROID"
+        ],
+        "credits": "52B",
+        "sell": [
+          "AMP WALKER"
+        ],
+        "safeSellNote": "AMP WALKER",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "AMP WALKER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 17",
+        "rbNumber": 17,
+        "droids": [
+          "OPTI-POD",
+          "R7",
+          "MONO-WLKR"
+        ],
+        "credits": "130B",
+        "sell": [
+          "OPTI-POD"
+        ],
+        "safeSellNote": "OPTI-POD",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "MONO-WLKR"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R7"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "OPTI-POD"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 18",
+        "rbNumber": 18,
+        "droids": [
+          "UTIL-TEC",
+          "BB9",
+          "PROTO-ROLLER"
+        ],
+        "credits": "325B",
+        "sell": [
+          "UTIL-TEC"
+        ],
+        "safeSellNote": "UTIL-TEC",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "BB9",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "UTIL-TEC"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 19",
+        "rbNumber": 19,
+        "droids": [
+          "MECHA-DROID",
+          "R7",
+          "B2-RP"
+        ],
+        "credits": "810 Billion",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "R7",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 20",
+        "rbNumber": 20,
+        "droids": [
+          "MONO-WLKR",
+          "OPTI-STRK",
+          "CYCLO-GRAV"
+        ],
+        "credits": "2 Trillion",
+        "sell": [
+          "OPTI-STRK",
+          "MONO-WLKR"
+        ],
+        "safeSellNote": "OPTI-STRK, MONO-WLKR",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "MONO-WLKR",
+              "OPTI-STRK",
+              "CYCLO-GRAV"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 21",
+        "rbNumber": 21,
+        "droids": [
+          "LO",
+          "R6",
+          "HAUL-R"
+        ],
+        "credits": "3T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "LO",
+              "R6",
+              "HAUL-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 22",
+        "rbNumber": 22,
+        "droids": [
+          "SEN-TRI",
+          "STRIKE-ORB",
+          "PROTO-ROLLER"
+        ],
+        "credits": "4.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "SEN-TRI",
+              "STRIKE-ORB",
+              "PROTO-ROLLER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 23",
+        "rbNumber": 23,
+        "droids": [
+          "BB9",
+          "CYCLO-GRAV",
+          "B2-RP"
+        ],
+        "credits": "6T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "BB9",
+              "CYCLO-GRAV",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 24",
+        "rbNumber": 24,
+        "droids": [
+          "OPTI-STRK",
+          "B2-RP",
+          "SNOW MOUSE"
+        ],
+        "credits": "9T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "OPTI-STRK",
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "SNOW MOUSE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 25",
+        "rbNumber": 25,
+        "droids": [
+          "MONO-WLKR",
+          "TRI-TEK",
+          "RIC-1200"
+        ],
+        "credits": "13.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "MONO-WLKR"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "TRI-TEK"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "RIC-1200"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 26",
+        "rbNumber": 26,
+        "droids": [
+          "KX",
+          "DRFT-R",
+          "IG"
+        ],
+        "credits": "21T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "KX"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "DRFT-R"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "IG"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 27",
+        "rbNumber": 27,
+        "droids": [
+          "LEP",
+          "LOADLIFTER",
+          "MO-TRAK"
+        ],
+        "credits": "32T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "LEP"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "LOADLIFTER"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "MO-TRAK"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 28",
+        "rbNumber": 28,
+        "droids": [
+          "SNOW MOUSE",
+          "TRI-TEK",
+          "MECHA-DROID"
+        ],
+        "credits": "45T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "SNOW MOUSE"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "TRI-TEK"
+            ]
+          },
+          {
+            "tier": "Galactic",
+            "droids": [
+              "MECHA-DROID"
+            ]
+          }
+        ],
+        "novaCrystals": 211,
+        "multiplier": "422%",
+        "srbMultiplier": "2110%"
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 29",
+        "rbNumber": 29,
+        "droids": [
+          "CYCLO-GRAV",
+          "R7",
+          "RIC"
+        ],
+        "credits": "68T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "CYCLO-GRAV",
+              "R7"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "RIC"
+            ]
+          }
+        ],
+        "novaCrystals": 232,
+        "multiplier": "464%",
+        "srbMultiplier": "2320%"
+      },
+      {
+        "cycle": "RBC2",
+        "rb": "RB 30",
+        "rbNumber": 30,
+        "droids": [
+          "OPTI-STRK",
+          "KX",
+          "DRFT-R"
+        ],
+        "credits": "100T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "OPTI-STRK",
+              "DRFT-R"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "KX"
+            ]
+          }
+        ],
+        "novaCrystals": 252,
+        "multiplier": "508%",
+        "srbMultiplier": "2540%"
+      }
+    ]
+  },
+  {
+    "id": "RBC3",
+    "label": "RBC3",
+    "subtitle": "SRB2",
+    "rows": [
+      {
+        "cycle": "RBC3",
+        "rb": "RB 1",
+        "rbNumber": 1,
+        "droids": [
+          "MOUSE",
+          "PIT",
+          "GONK"
+        ],
+        "credits": "10,000",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "MOUSE",
+              "PIT",
+              "GONK"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 2",
+        "rbNumber": 2,
+        "droids": [
+          "2BB",
+          "R3",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "150,000",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "2BB",
+              "R3",
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 3",
+        "rbNumber": 3,
+        "droids": [
+          "R4",
+          "R5",
+          "R8"
+        ],
+        "credits": "975,000",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "R4",
+              "R5",
+              "R8"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 4",
+        "rbNumber": 4,
+        "droids": [
+          "R9",
+          "B1 BATTLE",
+          "B1 SECURITY"
+        ],
+        "credits": "2.95 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "R9",
+              "B1 BATTLE",
+              "B1 SECURITY"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 5",
+        "rbNumber": 5,
+        "droids": [
+          "2BB",
+          "R3",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "5.35M",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "2BB",
+              "R3",
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 6",
+        "rbNumber": 6,
+        "droids": [
+          "BDX EXPLORER",
+          "R4",
+          "R5"
+        ],
+        "credits": "9.85M",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "BDX EXPLORER",
+              "R4",
+              "R5"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 7",
+        "rbNumber": 7,
+        "droids": [
+          "R8",
+          "R9",
+          "B1 BATTLE"
+        ],
+        "credits": "14.5M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R8",
+              "R9",
+              "B1 BATTLE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 8",
+        "rbNumber": 8,
+        "droids": [
+          "B1 SECURITY",
+          "R3",
+          "2BB"
+        ],
+        "credits": "36M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B1 SECURITY",
+              "R3",
+              "2BB"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 9",
+        "rbNumber": 9,
+        "droids": [
+          "BDX EXPLORER",
+          "R4",
+          "R5"
+        ],
+        "credits": "89M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "BDX EXPLORER",
+              "R4",
+              "R5"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 10",
+        "rbNumber": 10,
+        "droids": [
+          "TRAK-R",
+          "GROUNDMECH",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "220M",
+        "sell": [
+          "SENATE HOVERCAM"
+        ],
+        "safeSellNote": "SENATE HOVERCAM",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "TRAK-R",
+              "GROUNDMECH"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 11",
+        "rbNumber": 11,
+        "droids": [
+          "B2 HEAVY",
+          "B2 SUPER",
+          "UTIL-TEC"
+        ],
+        "credits": "550 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "B2 HEAVY",
+              "B2 SUPER",
+              "UTIL-TEC"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 12",
+        "rbNumber": 12,
+        "droids": [
+          "TRAK-R",
+          "GROUNDMECH",
+          "BAL-CORE"
+        ],
+        "credits": "1.36 Billion",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "TRAK-R",
+              "GROUNDMECH"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "BAL-CORE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 13",
+        "rbNumber": 13,
+        "droids": [
+          "B2 SUPER",
+          "MECHA-DROID",
+          "PROTO-ROLLER"
+        ],
+        "credits": "3.4B",
+        "sell": [
+          "B2 SUPER"
+        ],
+        "safeSellNote": "B2 SUPER",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "MECHA-DROID",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2 SUPER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 14",
+        "rbNumber": 14,
+        "droids": [
+          "B2 HEAVY",
+          "B2-RP",
+          "R7"
+        ],
+        "credits": "8.45B",
+        "sell": [
+          "B2 HEAVY"
+        ],
+        "safeSellNote": "B2 HEAVY",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "R7"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2 HEAVY"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 15",
+        "rbNumber": 15,
+        "droids": [
+          "STRIKE-ORB",
+          "BB9",
+          "PROTO-ROLLER"
+        ],
+        "credits": "21B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "BB9",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "STRIKE-ORB"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 16",
+        "rbNumber": 16,
+        "droids": [
+          "AMP WALKER",
+          "B2-RP",
+          "MECHA-DROID"
+        ],
+        "credits": "52B",
+        "sell": [
+          "AMP WALKER"
+        ],
+        "safeSellNote": "AMP WALKER",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "AMP WALKER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 17",
+        "rbNumber": 17,
+        "droids": [
+          "OPTI-POD",
+          "R7",
+          "MONO-WLKR"
+        ],
+        "credits": "130B",
+        "sell": [
+          "OPTI-POD"
+        ],
+        "safeSellNote": "OPTI-POD",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "MONO-WLKR"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R7"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "OPTI-POD"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 18",
+        "rbNumber": 18,
+        "droids": [
+          "UTIL-TEC",
+          "BB9",
+          "PROTO-ROLLER"
+        ],
+        "credits": "325B",
+        "sell": [
+          "UTIL-TEC"
+        ],
+        "safeSellNote": "UTIL-TEC",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "BB9",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "UTIL-TEC"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 19",
+        "rbNumber": 19,
+        "droids": [
+          "MECHA-DROID",
+          "R7",
+          "B2-RP"
+        ],
+        "credits": "810 Billion",
+        "sell": [
+          "MECHA-DROID",
+          "R7"
+        ],
+        "safeSellNote": "MECHA-DROID, R7",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "R7",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 20",
+        "rbNumber": 20,
+        "droids": [
+          "MONO-WLKR",
+          "OPTI-STRK",
+          "CYCLO-GRAV"
+        ],
+        "credits": "2 Trillion",
+        "sell": [
+          "MONO-WLKR",
+          "OPTI-STRK"
+        ],
+        "safeSellNote": "MONO-WLKR, OPTI-STRK",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "MONO-WLKR",
+              "OPTI-STRK",
+              "CYCLO-GRAV"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 21",
+        "rbNumber": 21,
+        "droids": [
+          "B2 SUPER",
+          "OPTI-POD",
+          "R2"
+        ],
+        "credits": "3T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "B2 SUPER",
+              "OPTI-POD",
+              "R2"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 22",
+        "rbNumber": 22,
+        "droids": [
+          "GUNRUNNER",
+          "LNG-SHOT",
+          "B2-RP"
+        ],
+        "credits": "4.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "GUNRUNNER",
+              "LNG-SHOT",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 23",
+        "rbNumber": 23,
+        "droids": [
+          "MONO-WLKR",
+          "MECHA-DROID",
+          "CYCLO-GRAV"
+        ],
+        "credits": "6T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "MONO-WLKR",
+              "MECHA-DROID",
+              "CYCLO-GRAV"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 24",
+        "rbNumber": 24,
+        "droids": [
+          "BB9",
+          "B2-RP",
+          "RIC"
+        ],
+        "credits": "9T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "BB9",
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "RIC"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 25",
+        "rbNumber": 25,
+        "droids": [
+          "PROTO-ROLLER",
+          "LOADLIFTER",
+          "MO-TRAK"
+        ],
+        "credits": "13.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "LOADLIFTER"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "MO-TRAK"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 26",
+        "rbNumber": 26,
+        "droids": [
+          "LEP",
+          "TRI-TEK",
+          "SNOW MOUSE"
+        ],
+        "credits": "21T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "LEP"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "TRI-TEK"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "SNOW MOUSE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 27",
+        "rbNumber": 27,
+        "droids": [
+          "RIC-1200",
+          "IG",
+          "DRFT-R"
+        ],
+        "credits": "32T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "RIC-1200"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "IG"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "DRFT-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 28",
+        "rbNumber": 28,
+        "droids": [
+          "RIC",
+          "MO-TRAK",
+          "BB9"
+        ],
+        "credits": "45T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "RIC"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "MO-TRAK"
+            ]
+          },
+          {
+            "tier": "Galactic",
+            "droids": [
+              "BB9"
+            ]
+          }
+        ],
+        "novaCrystals": 211,
+        "multiplier": "422%",
+        "srbMultiplier": "2110%"
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 29",
+        "rbNumber": 29,
+        "droids": [
+          "MECHA-DROID",
+          "OPTI-STRK",
+          "IG"
+        ],
+        "credits": "68T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "MECHA-DROID",
+              "OPTI-STRK"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "IG"
+            ]
+          }
+        ],
+        "novaCrystals": 232,
+        "multiplier": "464%",
+        "srbMultiplier": "2320%"
+      },
+      {
+        "cycle": "RBC3",
+        "rb": "RB 30",
+        "rbNumber": 30,
+        "droids": [
+          "R7",
+          "LEP",
+          "DRFT-R"
+        ],
+        "credits": "100T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "R7",
+              "DRFT-R"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "LEP"
+            ]
+          }
+        ],
+        "novaCrystals": 252,
+        "multiplier": "508%",
+        "srbMultiplier": "2540%"
+      }
+    ]
+  },
+  {
+    "id": "RBC4",
+    "label": "RBC4",
+    "subtitle": "SRB3",
+    "rows": [
+      {
+        "cycle": "RBC4",
+        "rb": "RB 1",
+        "rbNumber": 1,
+        "droids": [
+          "ID10",
+          "PIT",
+          "DRK-1 PROBE"
+        ],
+        "credits": "10,000",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "ID10",
+              "PIT",
+              "DRK-1 PROBE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 2",
+        "rbNumber": 2,
+        "droids": [
+          "R3",
+          "2BB",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "150,000",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "R3",
+              "2BB",
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 3",
+        "rbNumber": 3,
+        "droids": [
+          "R4",
+          "R5",
+          "R8"
+        ],
+        "credits": "975,000",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "R4"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "R5",
+              "R8"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 4",
+        "rbNumber": 4,
+        "droids": [
+          "R9",
+          "B1 BATTLE",
+          "B1 SECURITY"
+        ],
+        "credits": "2.95 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "R9",
+              "B1 BATTLE",
+              "B1 SECURITY"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 5",
+        "rbNumber": 5,
+        "droids": [
+          "2BB",
+          "R3",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "5.35M",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "2BB",
+              "R3",
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 6",
+        "rbNumber": 6,
+        "droids": [
+          "BDX EXPLORER",
+          "R4",
+          "R5"
+        ],
+        "credits": "9.85M",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "BDX EXPLORER",
+              "R4",
+              "R5"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 7",
+        "rbNumber": 7,
+        "droids": [
+          "R8",
+          "R9",
+          "B1 BATTLE"
+        ],
+        "credits": "14.5M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R8",
+              "R9",
+              "B1 BATTLE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 8",
+        "rbNumber": 8,
+        "droids": [
+          "B1 SECURITY",
+          "R3",
+          "2BB"
+        ],
+        "credits": "36M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B1 SECURITY",
+              "R3",
+              "2BB"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 9",
+        "rbNumber": 9,
+        "droids": [
+          "BDX EXPLORER",
+          "R4",
+          "R5"
+        ],
+        "credits": "89M",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "BDX EXPLORER",
+              "R4",
+              "R5"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 10",
+        "rbNumber": 10,
+        "droids": [
+          "TRAK-R",
+          "GROUNDMECH",
+          "SENATE HOVERCAM"
+        ],
+        "credits": "220M",
+        "sell": [
+          "SENATE-HOVERCAM"
+        ],
+        "safeSellNote": "SENATE-HOVERCAM",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "GROUNDMECH",
+              "TRAK-R"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "SENATE HOVERCAM"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 11",
+        "rbNumber": 11,
+        "droids": [
+          "B2 HEAVY",
+          "B2 SUPER",
+          "UTIL-TEC"
+        ],
+        "credits": "550 Million",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "B2 HEAVY",
+              "B2 SUPER",
+              "UTIL-TEC"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 12",
+        "rbNumber": 12,
+        "droids": [
+          "BAL-CORE",
+          "GROUNDMECH",
+          "TRAK-R"
+        ],
+        "credits": "1.36 Billion",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "GROUNDMECH",
+              "TRAK-R"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "BAL-CORE"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 13",
+        "rbNumber": 13,
+        "droids": [
+          "B2 SUPER",
+          "MECHA-DROID",
+          "PROTO-ROLLER"
+        ],
+        "credits": "3.4B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "MECHA-DROID",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2 SUPER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 14",
+        "rbNumber": 14,
+        "droids": [
+          "BAL-CORE",
+          "GROUNDMECH",
+          "TRAK-R"
+        ],
+        "credits": "8.45B",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "BAL-CORE",
+              "GROUNDMECH"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "TRAK-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 15",
+        "rbNumber": 15,
+        "droids": [
+          "B2 HEAVY",
+          "B2 SUPER",
+          "B2-RP"
+        ],
+        "credits": "21B",
+        "sell": [
+          "B2 HEAVY",
+          "B2 SUPER"
+        ],
+        "safeSellNote": "B2 HEAVY, B2 SUPER",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "B2-RP"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "B2 HEAVY"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "B2 SUPER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 16",
+        "rbNumber": 16,
+        "droids": [
+          "UTIL-TEC",
+          "BB9",
+          "R7"
+        ],
+        "credits": "52B",
+        "sell": [
+          "UTIL-TEC"
+        ],
+        "safeSellNote": "UTIL-TEC",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "BB9"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "R7"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "UTIL-TEC"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 17",
+        "rbNumber": 17,
+        "droids": [
+          "OPTI-STRK",
+          "CYCLO-GRAV",
+          "MECHA-DROID"
+        ],
+        "credits": "130B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Default",
+            "droids": [
+              "OPTI-STRK"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "CYCLO-GRAV",
+              "MECHA-DROID"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 18",
+        "rbNumber": 18,
+        "droids": [
+          "B2-RP",
+          "BB9",
+          "R7"
+        ],
+        "credits": "325B",
+        "sell": [],
+        "safeSellNote": "Do not sell",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "B2-RP",
+              "BB9"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "R7"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 19",
+        "rbNumber": 19,
+        "droids": [
+          "MECHA-DROID",
+          "R7",
+          "B2-RP"
+        ],
+        "credits": "810 Billion",
+        "sell": [
+          "MECHA-DROID",
+          "R7"
+        ],
+        "safeSellNote": "MECHA-DROID, R7",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "MECHA-DROID"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "R7",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 20",
+        "rbNumber": 20,
+        "droids": [
+          "MONO-WLKR",
+          "OPTI-STRK",
+          "CYCLO-GRAV"
+        ],
+        "credits": "2 Trillion",
+        "sell": [
+          "MONO-WLKR",
+          "OPTI-STRK"
+        ],
+        "safeSellNote": "MONO-WLKR, OPTI-STRK",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "MONO-WLKR",
+              "OPTI-STRK",
+              "CYCLO-GRAV"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 21",
+        "rbNumber": 21,
+        "droids": [
+          "HAUL-R",
+          "GROUNDMECH",
+          "AMP WALKER"
+        ],
+        "credits": "3T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "HAUL-R",
+              "GROUNDMECH",
+              "AMP WALKER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 22",
+        "rbNumber": 22,
+        "droids": [
+          "B2 SUPER",
+          "STRIKE-ORB",
+          "GUNRUNNER"
+        ],
+        "credits": "4.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "B2 SUPER",
+              "STRIKE-ORB",
+              "GUNRUNNER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 23",
+        "rbNumber": 23,
+        "droids": [
+          "MONO-WLKR",
+          "CYCLO-GRAV",
+          "B2-RP"
+        ],
+        "credits": "6T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "MONO-WLKR",
+              "CYCLO-GRAV",
+              "B2-RP"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 24",
+        "rbNumber": 24,
+        "droids": [
+          "MECHA-DROID",
+          "PROTO-ROLLER",
+          "MO-TRAK"
+        ],
+        "credits": "9T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "MECHA-DROID",
+              "PROTO-ROLLER"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "MO-TRAK"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 25",
+        "rbNumber": 25,
+        "droids": [
+          "OPTI-STRK",
+          "TRI-TEK",
+          "DRFT-R"
+        ],
+        "credits": "13.50T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Beskar",
+            "droids": [
+              "OPTI-STRK"
+            ]
+          },
+          {
+            "tier": "Default",
+            "droids": [
+              "TRI-TEK"
+            ]
+          },
+          {
+            "tier": "Gold",
+            "droids": [
+              "DRFT-R"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 26",
+        "rbNumber": 26,
+        "droids": [
+          "CYCLENS",
+          "LEP",
+          "MO-TRAK"
+        ],
+        "credits": "21T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Gold",
+            "droids": [
+              "CYCLENS"
+            ]
+          },
+          {
+            "tier": "Diamond",
+            "droids": [
+              "LEP"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "MO-TRAK"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 27",
+        "rbNumber": 27,
+        "droids": [
+          "RIC-1200",
+          "SNOW MOUSE",
+          "LOADLIFTER"
+        ],
+        "credits": "32T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Diamond",
+            "droids": [
+              "RIC-1200"
+            ]
+          },
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "SNOW MOUSE"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "LOADLIFTER"
+            ]
+          }
+        ]
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 28",
+        "rbNumber": 28,
+        "droids": [
+          "IG",
+          "KX",
+          "OPTI-STRK"
+        ],
+        "credits": "45T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Rainbow",
+            "droids": [
+              "IG"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "KX"
+            ]
+          },
+          {
+            "tier": "Galactic",
+            "droids": [
+              "OPTI-STRK"
+            ]
+          }
+        ],
+        "novaCrystals": 211,
+        "multiplier": "422%",
+        "srbMultiplier": "2110%"
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 29",
+        "rbNumber": 29,
+        "droids": [
+          "BB9",
+          "R7",
+          "TRI-TEK"
+        ],
+        "credits": "68T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "BB9",
+              "R7"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "TRI-TEK"
+            ]
+          }
+        ],
+        "novaCrystals": 232,
+        "multiplier": "464%",
+        "srbMultiplier": "2320%"
+      },
+      {
+        "cycle": "RBC4",
+        "rb": "RB 30",
+        "rbNumber": 30,
+        "droids": [
+          "MONO-WLKR",
+          "CYCLENS",
+          "IG"
+        ],
+        "credits": "100T",
+        "sell": [],
+        "safeSellNote": "",
+        "requirements": [
+          {
+            "tier": "Galactic",
+            "droids": [
+              "MONO-WLKR",
+              "IG"
+            ]
+          },
+          {
+            "tier": "Beskar",
+            "droids": [
+              "CYCLENS"
+            ]
+          }
+        ],
+        "novaCrystals": 252,
+        "multiplier": "508%",
+        "srbMultiplier": "2540%"
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+# Build artifacts
+*.exe
+*.zip
+*.log
+installed-version.txt
+overlay-ui.json
+
+# Test captures
+*.tmp
+fullscreen-overlay-test.png
+launcher-screenshot.png
+wpf-login-verification.png
+
+# IDE / OS
+.vs/
+.vscode/
+obj/
+bin/
+Thumbs.db
+.DS_Store
