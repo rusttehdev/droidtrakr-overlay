@@ -38,12 +38,15 @@ public sealed class DroidTrakrOverlay : Window {
   readonly JavaScriptSerializer Json = new JavaScriptSerializer { MaxJsonLength = 2000000 };
   readonly DispatcherTimer Tick = new DispatcherTimer { Interval = TimeSpan.FromSeconds(1) };
   DispatcherTimer UiLayoutDebounce,UiLayoutLiveTimer,SearchDebounce;
-  DispatcherTimer SaveDebounce;
+  DispatcherTimer SaveDebounce,FlawlessSaveDebounce;
   Dictionary<string, object> PendingSaveMember;
   readonly Dictionary<string,object> PendingSaveChanges=new Dictionary<string,object>();
   bool PendingSaveFullSnapshot;
   bool RebirthSavePending,RebirthSaveInFlight;
   int RebirthSaveGeneration;
+  Dictionary<string,object> PendingFlawlessData;
+  bool FlawlessSavePending,FlawlessSaveInFlight;
+  int FlawlessSaveGeneration;
   static Dictionary<string, BitmapImage> ImageCache = new Dictionary<string, BitmapImage>();
   readonly Dictionary<string,FrameworkElement> VisibleNeedTiles=new Dictionary<string,FrameworkElement>();
   readonly Random PoofRandom=new Random();
@@ -496,7 +499,7 @@ public sealed class DroidTrakrOverlay : Window {
         var incomingMe=L(incoming["members"]).Select(D).FirstOrDefault(m=>m!=null&&S(m,"id")==S(User,"id"));
         if(incomingMe!=null){var localChecks=PendingSaveMember.ContainsKey("checks")?D(PendingSaveMember["checks"]):null;if(localChecks!=null)incomingMe["checks"]=new Dictionary<string,object>(localChecks);incomingMe["active"]=S(PendingSaveMember,"active");PendingSaveMember=incomingMe;}
       }
-      var group=values[1] as Dictionary<string,object>;LastData=incoming;LastFlawlessData=values.Length>4?values[4] as Dictionary<string,object>:LastFlawlessData;SelectedGroup=group;AvailableGroups=values.Length>3?values[3] as List<Dictionary<string,object>>:AvailableGroups;LastRefresh=DateTime.UtcNow;Status.Text=group!=null&&!String.IsNullOrWhiteSpace(S(group,"name"))?S(group,"name"):"PERSONAL TRACKER";Busy=false;Render();if(RefreshQueued){RefreshQueued=false;Dispatcher.BeginInvoke(new Action(RefreshData));}
+      var group=values[1] as Dictionary<string,object>;LastData=incoming;var incomingFlawless=values.Length>4?values[4] as Dictionary<string,object>:null;LastFlawlessData=FlawlessSavePending&&PendingFlawlessData!=null?PendingFlawlessData:(incomingFlawless??LastFlawlessData);SelectedGroup=group;AvailableGroups=values.Length>3?values[3] as List<Dictionary<string,object>>:AvailableGroups;LastRefresh=DateTime.UtcNow;Status.Text=group!=null&&!String.IsNullOrWhiteSpace(S(group,"name"))?S(group,"name"):"PERSONAL TRACKER";Busy=false;Render();if(RefreshQueued){RefreshQueued=false;Dispatcher.BeginInvoke(new Action(RefreshData));}
     }));
   }
 
@@ -530,7 +533,7 @@ public sealed class DroidTrakrOverlay : Window {
   }
   bool FlawlessDone(Dictionary<string,object> droid,string player){if(LastFlawlessData==null||!LastFlawlessData.ContainsKey("progress"))return false;var progress=D(LastFlawlessData["progress"]);if(progress==null)return false;var row=progress.ContainsKey(S(droid,"name"))?D(progress[S(droid,"name")]):null;return row!=null&&B(row,player);}
   FrameworkElement FlawlessTile(Dictionary<string,object> droid,string player,bool interactive){var complete=FlawlessDone(droid,player);var n=new Dictionary<string,object>{{"Name",S(droid,"name")},{"Tier",S(droid,"rarity")},{"Complete",complete}};var card=NeedTile(n,Mode=="mine",false,new Dictionary<string,object>{{"id","flawless"}});FrameworkElement visual=card;if(complete){var badge=DroidImage("FlawlessIcon",24);if(badge!=null){badge.HorizontalAlignment=HorizontalAlignment.Right;badge.VerticalAlignment=VerticalAlignment.Top;badge.Margin=new Thickness(0,(ViewStyle=="Portrait Cards"||ViewStyle=="Blueprint Cards")?20:0,8,0);var stage=new Grid{Width=122};stage.Children.Add(card);stage.Children.Add(badge);visual=stage;}}if(!interactive)return visual;var button=new Button{Content=visual,Background=Brush("#00000000"),BorderThickness=new Thickness(0),Padding=new Thickness(0),Cursor=Cursors.Hand,ToolTip=complete?"Mark missing in Flawless":"Mark collected in Flawless"};button.Click+=delegate{ToggleFlawless(droid,player);};return button;}
-  void ToggleFlawless(Dictionary<string,object> droid,string player){if(LastFlawlessData==null||String.IsNullOrWhiteSpace(player))return;var progress=LastFlawlessData.ContainsKey("progress")?D(LastFlawlessData["progress"]):null;if(progress==null){progress=new Dictionary<string,object>();LastFlawlessData["progress"]=progress;}var name=S(droid,"name");var row=progress.ContainsKey(name)?D(progress[name]):null;if(row==null){row=new Dictionary<string,object>();progress[name]=row;}var before=B(row,player);row[player]=!before;Render();var gid=S(LastFlawlessData,"id");Task.Factory.StartNew(delegate{return Request("/groups/"+Uri.EscapeDataString(gid),"POST",LastFlawlessData);}).ContinueWith(t=>Dispatcher.Invoke(delegate{if(t.IsFaulted){row[player]=before;Status.Text="FLAWLESS SAVE FAILED";Render();}else Status.Text="FLAWLESS SYNCED";}));}
+  void ToggleFlawless(Dictionary<string,object> droid,string player){if(LastFlawlessData==null||String.IsNullOrWhiteSpace(player))return;var progress=LastFlawlessData.ContainsKey("progress")?D(LastFlawlessData["progress"]):null;if(progress==null){progress=new Dictionary<string,object>();LastFlawlessData["progress"]=progress;}var name=S(droid,"name");var row=progress.ContainsKey(name)?D(progress[name]):null;if(row==null){row=new Dictionary<string,object>();progress[name]=row;}row[player]=!B(row,player);Render();QueueFlawlessSave();}
   void RenderFlawless(){
     if(LastFlawlessData==null){AddMessage("Flawless tracker is loading...");LastRefresh=DateTime.MinValue;RefreshData();return;}
     var players=LastFlawlessData.ContainsKey("players")?L(LastFlawlessData["players"]).Select(Convert.ToString).Where(x=>!String.IsNullOrWhiteSpace(x)).Distinct(StringComparer.OrdinalIgnoreCase).ToList():new List<string>();
@@ -592,6 +595,14 @@ public sealed class DroidTrakrOverlay : Window {
     if(User==null)return;var canonical=S(need,"CheckKey");if(String.IsNullOrWhiteSpace(canonical))return;var checks=member.ContainsKey("checks")?D(member["checks"]):null;if(checks==null){checks=new Dictionary<string,object>();member["checks"]=checks;}var beforeChecks=new Dictionary<string,object>(checks);RememberUndo(member,"droid change");var wasComplete=B(need,"Complete");var keys=need.ContainsKey("MatchedKeys")?L(need["MatchedKeys"]).Select(Convert.ToString).Where(x=>!String.IsNullOrWhiteSpace(x)).ToList():new List<string>();if(keys.Count==0)keys.Add(canonical);var poofTargets=new List<FrameworkElement>{hit};
     if(!wasComplete){var selectedRank=TierRank(S(need,"Tier"));foreach(var lower in SearchNeeds(member).Where(x=>Norm(S(x,"Name"))==Norm(S(need,"Name"))&&TierRank(S(x,"Tier"))<=selectedRank)){var lowerCanonical=S(lower,"CheckKey");if(!String.IsNullOrWhiteSpace(lowerCanonical)){checks[lowerCanonical]=true;FrameworkElement lowerVisual;if(VisibleNeedTiles.TryGetValue(S(member,"id")+"|"+lowerCanonical,out lowerVisual)&&lowerVisual!=null&&!poofTargets.Contains(lowerVisual))poofTargets.Add(lowerVisual);}foreach(var matched in L(lower.ContainsKey("MatchedKeys")?lower["MatchedKeys"]:null).Select(Convert.ToString).Where(x=>!String.IsNullOrWhiteSpace(x)))checks[matched]=true;}foreach(var key in keys)checks[key]=true;}else foreach(var key in keys)checks[key]=false;
     var changedKeys=new Dictionary<string,object>();foreach(var key in beforeChecks.Keys.Union(checks.Keys)){var before=beforeChecks.ContainsKey(key)&&Convert.ToBoolean(beforeChecks[key]);var after=checks.ContainsKey(key)&&Convert.ToBoolean(checks[key]);if(before!=after)changedKeys[key]=after;}need["Complete"]=!wasComplete;hit.IsEnabled=false;QueueRebirthSave(member,changedKeys);if(!wasComplete){StartPoof(hit);AfterPoof(delegate{Render();});}else Render();
+  }
+
+  void QueueFlawlessSave(){
+    if(LastFlawlessData==null||User==null)return;PendingFlawlessData=D(Json.DeserializeObject(Json.Serialize(LastFlawlessData)));FlawlessSavePending=true;FlawlessSaveGeneration++;Status.Text="SAVING FLAWLESS...";if(FlawlessSaveDebounce==null){FlawlessSaveDebounce=new DispatcherTimer{Interval=TimeSpan.FromMilliseconds(300)};FlawlessSaveDebounce.Tick+=delegate{FlawlessSaveDebounce.Stop();FlushFlawlessSave();};}FlawlessSaveDebounce.Interval=TimeSpan.FromMilliseconds(300);FlawlessSaveDebounce.Stop();FlawlessSaveDebounce.Start();
+  }
+  void FlushFlawlessSave(){
+    if(FlawlessSaveInFlight||!FlawlessSavePending||PendingFlawlessData==null||User==null)return;var generation=FlawlessSaveGeneration;var snapshot=D(Json.DeserializeObject(Json.Serialize(PendingFlawlessData)));var gid=S(snapshot,"id");if(String.IsNullOrWhiteSpace(gid))return;FlawlessSaveInFlight=true;
+    Task.Factory.StartNew(delegate{return Request("/groups/"+Uri.EscapeDataString(gid),"POST",snapshot);}).ContinueWith(t=>Dispatcher.Invoke(delegate{FlawlessSaveInFlight=false;if(t.IsFaulted){Status.Text="FLAWLESS SAVE RETRYING...";FlawlessSaveDebounce.Interval=TimeSpan.FromSeconds(2);FlawlessSaveDebounce.Stop();FlawlessSaveDebounce.Start();return;}if(generation==FlawlessSaveGeneration){var response=D(t.Result);LastFlawlessData=response??PendingFlawlessData;PendingFlawlessData=null;FlawlessSavePending=false;Status.Text="FLAWLESS SYNCED";LastRefresh=DateTime.UtcNow;Render();}else FlushFlawlessSave();}));
   }
 
   void QueueRebirthSave(Dictionary<string,object> member,Dictionary<string,object> changes=null) {
